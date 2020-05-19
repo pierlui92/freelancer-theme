@@ -83,7 +83,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image: url("/img/seoul.jpg");
+    background-image: url("/img/seoul.jpg") no-repeat center fixed;     
+    background-size: cover;
 }
 
 header .container {
